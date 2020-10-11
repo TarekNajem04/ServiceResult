@@ -12,8 +12,8 @@ These questions are always in our minds when we start designing our special serv
 At first you will think that this topic is special, but after you finish reading it, you will find that you can apply it in any scenario in which you need to return a meaningful value to the **Caller**.
 We used to return one result for service methods, which is the possible result of that function (like Boolean, Integer, Models, etc.).
 
-**Scenario 1 - Throw Exceptions Or Exception Pattern
+**Scenario 1 - Throw Exceptions Or Exception Pattern**
 
-Scenario 2 – Result Object Or Result Pattern
+**Scenario 2 – Result Object Or Result Pattern**
 
-Scenario 3 – Aspect-Oriented Programming Or Decorator Pattern**
+**Scenario 3 – Aspect-Oriented Programming Or Decorator Pattern**
