@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ServiceResult.ResultObject.WebApi.Controllers.LoginController">
+    <Position X="6.25" Y="6.25" Width="2" />
+    <Members>
+      <Method Name="LoginController" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceResult.ResultObject.WebApi.Controllers.AppController&lt;TService&gt;">
+    <Position X="6.25" Y="4.5" Width="2" />
+    <Members>
+      <Method Name="AppController" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AppController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceResult.ResultObject.WebApi.Controllers.AppController">
+    <Position X="6.25" Y="1.75" Width="2" />
+    <Members>
+      <Method Name="AppController" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controllers\AppController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

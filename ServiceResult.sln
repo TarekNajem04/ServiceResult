@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Normal", "Normal", "{6583128B-2352-4E90-B845-E8F4021CB40A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.Normal", "src\ServiceResult.Normal\ServiceResult.Normal.csproj", "{ABACADAF-0001-0001-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.Normal.WebApi", "src\ServiceResult.Normal.WebApi\ServiceResult.Normal.WebApi.csproj", "{ABACADAF-0001-0002-A7B2-5FC36AF737CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionPattern", "ExceptionPattern", "{7FE98180-D0F4-4026-9179-C495BAE43168}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.ExceptionPattern", "src\ServiceResult.ExceptionPattern\ServiceResult.ExceptionPattern.csproj", "{ABACADAF-0002-0001-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.ExceptionPattern.WebApi", "src\ServiceResult.ExceptionPattern.WebApi\ServiceResult.ExceptionPattern.WebApi.csproj", "{ABACADAF-0002-0002-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.Domain", "src\ServiceResult.Domain\ServiceResult.Domain.csproj", "{ABACADAF-0000-0002-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult", "src\ServiceResult\ServiceResult.csproj", "{ABACADAF-0000-0001-A7B2-5FC36AF737CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21AB8E0B-C035-40B1-B148-2FBC5BE8C710}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResultPattern", "ResultPattern", "{1A7659CA-7EBF-40CE-8CF4-9C28AD83404B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.ResultPattern", "src\ServiceResult.ResultPattern\ServiceResult.ResultPattern.csproj", "{ABACADAF-0003-0001-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.ResultPattern.WebApi", "src\ServiceResult.ResultPattern.WebApi\ServiceResult.ResultPattern.WebApi.csproj", "{ABACADAF-0003-0002-A7B2-5FC36AF737CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspectOriented", "AspectOriented", "{9715C3C4-0BC3-4897-916E-425A687A116F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.AspectOriented", "src\ServiceResult.AspectOriented\ServiceResult.AspectOriented.csproj", "{ABACADAF-0004-0001-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.AspectOriented.WebApi", "src\ServiceResult.AspectOriented.WebApi\ServiceResult.AspectOriented.WebApi.csproj", "{ABACADAF-0004-0002-A7B2-5FC36AF737CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceResult.AspectOriented.ServiceProxy", "src\ServiceResult.AspectOriented.ServiceProxy\ServiceResult.AspectOriented.ServiceProxy.csproj", "{ABACADAF-0004-0003-A7B2-5FC36AF737CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABACADAF-0001-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0001-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0001-0001-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0001-0001-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0001-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0001-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0001-0002-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0001-0002-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0002-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0002-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0002-0001-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0002-0001-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0002-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0002-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0002-0002-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0002-0002-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0000-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0000-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0000-0002-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0000-0002-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0000-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0000-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0000-0001-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0000-0001-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0003-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0003-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0003-0001-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0003-0001-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0003-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0003-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0003-0002-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0003-0002-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0004-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0004-0001-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0004-0001-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0004-0001-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0004-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0004-0002-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0004-0002-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0004-0002-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACADAF-0004-0003-A7B2-5FC36AF737CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACADAF-0004-0003-A7B2-5FC36AF737CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACADAF-0004-0003-A7B2-5FC36AF737CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACADAF-0004-0003-A7B2-5FC36AF737CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABACADAF-0001-0001-A7B2-5FC36AF737CD} = {6583128B-2352-4E90-B845-E8F4021CB40A}
+		{ABACADAF-0001-0002-A7B2-5FC36AF737CD} = {6583128B-2352-4E90-B845-E8F4021CB40A}
+		{ABACADAF-0002-0001-A7B2-5FC36AF737CD} = {7FE98180-D0F4-4026-9179-C495BAE43168}
+		{ABACADAF-0002-0002-A7B2-5FC36AF737CD} = {7FE98180-D0F4-4026-9179-C495BAE43168}
+		{ABACADAF-0003-0001-A7B2-5FC36AF737CD} = {1A7659CA-7EBF-40CE-8CF4-9C28AD83404B}
+		{ABACADAF-0003-0002-A7B2-5FC36AF737CD} = {1A7659CA-7EBF-40CE-8CF4-9C28AD83404B}
+		{ABACADAF-0004-0001-A7B2-5FC36AF737CD} = {9715C3C4-0BC3-4897-916E-425A687A116F}
+		{ABACADAF-0004-0002-A7B2-5FC36AF737CD} = {9715C3C4-0BC3-4897-916E-425A687A116F}
+		{ABACADAF-0004-0003-A7B2-5FC36AF737CD} = {9715C3C4-0BC3-4897-916E-425A687A116F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECBCA8B4-5B6F-450B-9520-7E3E3F1EEE1C}
+	EndGlobalSection
+EndGlobal
